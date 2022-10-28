@@ -1,5 +1,6 @@
 package com.amuzil.lwst
 
+import com.amuzil.lwst.command.HelpCommand
 import dev.minn.jda.ktx.jdabuilder.default
 import dev.minn.jda.ktx.jdabuilder.intents
 import net.dv8tion.jda.api.exceptions.InvalidTokenException
@@ -31,6 +32,8 @@ fun main() {
 				.addChoice("Echo!", "Echo!")
 			)
 	).queue()
+
+	HelpCommand.setup(jda)
 
 	jda.awaitReady()
 
