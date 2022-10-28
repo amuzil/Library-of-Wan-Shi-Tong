@@ -8,13 +8,15 @@ import net.dv8tion.jda.api.interactions.commands.OptionType
 import net.dv8tion.jda.api.interactions.commands.build.Commands
 import net.dv8tion.jda.api.interactions.commands.build.OptionData
 import net.dv8tion.jda.api.requests.GatewayIntent
+import java.util.*
+
 
 fun main() {
 	val configuration = Configuration.parse()
 
 	val jda = try {
 		default(configuration.jda.token, enableCoroutines = true) {
-			intents += GatewayIntent.GUILD_MEMBERS
+			intents += EnumSet.allOf(GatewayIntent::class.java)
 		}
 	} catch (exception: InvalidTokenException) {
 		error("Invalid token! Please check your configuration.")
