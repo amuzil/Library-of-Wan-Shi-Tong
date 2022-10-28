@@ -10,7 +10,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div style="text-align: center">
+<div align="center" style="text-align: center">
 	<a href="https://github.com/amuzil/library-of-wan-shi-tong">
 		<img src="https://raw.githubusercontent.com/amuzil/library-of-wan-shi-tong/main/src/main/resources/logo.png" alt="Logo" width="80" height="80">
 	</a>
@@ -36,7 +36,7 @@
 			<a href="#about-the-project">About The Project</a>
 			<ul>
 				<li><a href="#why-make-our-own-bot">Why make our own bot?</a></li>
-				<li><a href="#built-with">Built With</a></li>
+				<li><a href="#built-with">Built with</a></li>
 			</ul>
 		</li>
 		<li>
@@ -78,7 +78,7 @@ The Library of Wan Shi Tong is a Discord bot for the Avatar Minecraft mod server
 The bot is written in Kotlin using the JDA library.
 The purpose of the bot is to provide a variety of useful features for the server, such as an easy ticket system, and more features yet to be decided.
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Why make our own bot?
 
@@ -90,7 +90,7 @@ While there are a variety of bots that provide the same features as the Library 
 - [ ] **Open Source**: We wanted to make the bot open source since that is one of our core values, so that others can contribute to it, and learn from it.
 - [ ] **Community**: We wanted to make a bot that would be useful for our community, and that would help us grow as a community.
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built with
 
@@ -103,7 +103,7 @@ While there are a variety of bots that provide the same features as the Library 
 [![Git][git-shield]][git-url]
 [![GitHub][github-shield]][github-url]
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -152,7 +152,7 @@ Before you begin, ensure you have met the following requirements:
    ./gradlew run
    ```
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -190,21 +190,24 @@ Options include any [JetBrains IDE](https://www.jetbrains.com/products.html) (su
    ```
 5. Open a Pull Request
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the Unlicense. See `license.md` for more information.
+Distributed under the Unlicense. See [`license.md`](license.md) for more information.
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
 
 ## Contact
+
+[![Discord][discord-shield]][discord-url]
+[![Book a meeting][cal-shield]][cal-url]
 
 Main contact: **Luka "Mahtaran" Leer**
 
@@ -212,13 +215,11 @@ Main contact: **Luka "Mahtaran" Leer**
 [![Mail][luka-mail-shield]][luka-mail-url]
 [![Website][luka-website-shield]][luka-website-url]
 
-[![Discord][discord-shield]][discord-url]
 [![GitHub Followers][luka-github-followers-shield]][luka-github-followers-url]
-
 [![Reddit][luka-reddit-shield]][luka-reddit-url]
 [![Twitter][luka-twitter-shield]][luka-twitter-url]
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -227,7 +228,7 @@ Main contact: **Luka "Mahtaran" Leer**
 
 * [Readme template by Othneil Drew](https://github.com/othneildrew/Best-README-Template)
 
-<p style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
@@ -244,8 +245,6 @@ Main contact: **Luka "Mahtaran" Leer**
 [license-url]: https://github.com/amuzil/library-of-wan-shi-tong/blob/main/license.md
 
 [banner]: https://raw.githubusercontent.com/amuzil/library-of-wan-shi-tong/main/src/main/resources/banner.png
-[discord-shield]: https://img.shields.io/discord/328518857310339076?style=for-the-badge&logo=discord&logoColor=white&label=Connect+on+Discord
-[discord-url]: https://discord.gg/jPVMETb
 
 [github-repo-file-count]: https://img.shields.io/github/directory-file-count/amuzil/library-of-wan-shi-tong?style=for-the-badge
 [github-repo-size]: https://img.shields.io/github/repo-size/amuzil/library-of-wan-shi-tong?style=for-the-badge
@@ -279,9 +278,14 @@ Main contact: **Luka "Mahtaran" Leer**
 [github-shield]: https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/
 
+[discord-shield]: https://img.shields.io/discord/328518857310339076?style=for-the-badge&logo=discord&logoColor=white&label=Connect+on+Discord
+[discord-url]: https://discord.gg/jPVMETb
+[cal-shield]: https://img.shields.io/badge/Cal.com-1DA1F2?style=for-the-badge&logo=google-calendar&logoColor=white&label=Book+a+meeting
+[cal-url]: https://app.cal.com/team/amuzil
+
 [luka-linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [luka-linkedin-url]: https://linkedin.com/in/luka-leer
-[luka-mail-shield]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[luka-mail-shield]: https://img.shields.io/badge/Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white
 [luka-mail-url]: mailto:mahtaran@amuzil.com
 [luka-website-shield]: https://img.shields.io/badge/Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white
 [luka-website-url]: https://mahtaran.amuzil.com/
