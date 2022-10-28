@@ -11,8 +11,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center" style="text-align: center">
-	<a href="https://github.com/amuzil/library-of-wan-shi-tong">
-		<img src="https://raw.githubusercontent.com/amuzil/library-of-wan-shi-tong/main/src/main/resources/logo.png" alt="Logo" width="80" height="80">
+	<a href="https://github.com/amuzil/lwst">
+		<img src="https://raw.githubusercontent.com/amuzil/lwst/main/src/main/resources/logo.png" alt="Logo" width="80" height="80">
 	</a>
 	<h3>Library of Wan Shi Tong</h3>
 	<p>
@@ -21,9 +21,9 @@
         <a href="https://discord.gg/jPVMETb"><strong>Join us on Discord »</strong></a>
         <br />
         <br />
-        <a href="https://github.com/amuzil/library-of-wan-shi-tong/issues">Report Bug</a>
+        <a href="https://github.com/amuzil/lwst/issues">Report Bug</a>
         ·
-        <a href="https://github.com/amuzil/library-of-wan-shi-tong/issues">Request Feature</a>
+        <a href="https://github.com/amuzil/lwst/issues">Request Feature</a>
 	</p>
 </div>
 
@@ -60,10 +60,10 @@
 
 [![Banner][banner]][discord-url]
 
-[![GitHub repo file count][github-repo-file-count]][github-url]
-[![GitHub repo size][github-repo-size]][github-url]
-[![GitHub repo last commit][github-repo-last-commit]][github-url]
-[![GitHub repo languages][github-repo-languages]][github-url]
+[![GitHub repo file count][github-repo-file-count]][github-repo-url]
+[![GitHub repo size][github-repo-size]][github-repo-url]
+[![GitHub repo last commit][github-repo-last-commit]][github-repo-url]
+[![GitHub repo languages][github-repo-languages]][github-repo-url]
 
 [![GitHub open milestones][github-open-milestones]][github-open-milestones-url]
 [![GitHub closed milestones][github-closed-milestones]][github-closed-milestones-url]
@@ -130,7 +130,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/amuzil/library-of-wan-shi-tong.git
+   git clone https://github.com/amuzil/lwst.git
    ```
 
 2. Install the dependencies
@@ -248,35 +248,36 @@ Main contact: **Luka "Mahtaran" Leer**
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/amuzil/library-of-wan-shi-tong.svg?style=for-the-badge
-[contributors-url]: https://github.com/amuzil/library-of-wan-shi-tong/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/amuzil/library-of-wan-shi-tong.svg?style=for-the-badge
-[forks-url]: https://github.com/amuzil/library-of-wan-shi-tong/network/members
-[stars-shield]: https://img.shields.io/github/stars/amuzil/library-of-wan-shi-tong.svg?style=for-the-badge
-[stars-url]: https://github.com/amuzil/library-of-wan-shi-tong/stargazers
-[hacktoberfest-shield]: https://img.shields.io/github/hacktoberfest/2022/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[hacktoberfest-url]: https://hacktoberfest.digitalocean.com/
-[license-shield]: https://img.shields.io/github/license/amuzil/library-of-wan-shi-tong.svg?style=for-the-badge
-[license-url]: https://github.com/amuzil/library-of-wan-shi-tong/blob/main/license.md
+[contributors-shield]: https://img.shields.io/github/contributors/amuzil/lwst.svg?style=for-the-badge
+[contributors-url]: https://github.com/amuzil/lwst/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/amuzil/lwst.svg?style=for-the-badge
+[forks-url]: https://github.com/amuzil/lwst/network/members
+[stars-shield]: https://img.shields.io/github/stars/amuzil/lwst.svg?style=for-the-badge
+[stars-url]: https://github.com/amuzil/lwst/stargazers
+[hacktoberfest-shield]: https://img.shields.io/github/hacktoberfest/2022/amuzil/lwst?style=for-the-badge
+[hacktoberfest-url]: https://hacktoberfest.com/
+[license-shield]: https://img.shields.io/github/license/amuzil/lwst.svg?style=for-the-badge
+[license-url]: https://github.com/amuzil/lwst/blob/main/license.md
 
-[banner]: https://raw.githubusercontent.com/amuzil/library-of-wan-shi-tong/main/src/main/resources/banner.png
+[banner]: https://raw.githubusercontent.com/amuzil/lwst/main/src/main/resources/banner.png
 
-[github-repo-file-count]: https://img.shields.io/github/directory-file-count/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-repo-size]: https://img.shields.io/github/repo-size/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-repo-last-commit]: https://img.shields.io/github/last-commit/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-repo-languages]: https://img.shields.io/github/languages/count/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-open-issues]: https://img.shields.io/github/issues/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-open-issues-url]: https://github.com/amuzil/library-of-wan-shi-tong/issues
-[github-closed-issues]: https://img.shields.io/github/issues-closed/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-closed-issues-url]: https://github.com/amuzil/library-of-wan-shi-tong/issues?q=is%3Aissue+is%3Aclosed
-[github-open-pull-requests]: https://img.shields.io/github/issues-pr/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-open-pull-requests-url]: https://github.com/amuzil/library-of-wan-shi-tong/pulls
-[github-closed-pull-requests]: https://img.shields.io/github/issues-pr-closed/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-closed-pull-requests-url]: https://github.com/amuzil/library-of-wan-shi-tong/pulls?q=is%3Apr+is%3Aclosed
-[github-open-milestones]: https://img.shields.io/github/milestones/open/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-open-milestones-url]: https://github.com/amuzil/library-of-wan-shi-tong/milestones
-[github-closed-milestones]: https://img.shields.io/github/milestones/closed/amuzil/library-of-wan-shi-tong?style=for-the-badge
-[github-closed-milestones-url]: https://github.com/amuzil/library-of-wan-shi-tong/milestones?q=is%3Aclosed
+[github-repo-url]: https://github.com/amuzil/lwst/
+[github-repo-file-count]: https://img.shields.io/github/directory-file-count/amuzil/lwst?style=for-the-badge
+[github-repo-size]: https://img.shields.io/github/repo-size/amuzil/lwst?style=for-the-badge
+[github-repo-last-commit]: https://img.shields.io/github/last-commit/amuzil/lwst?style=for-the-badge
+[github-repo-languages]: https://img.shields.io/github/languages/count/amuzil/lwst?style=for-the-badge
+[github-open-issues]: https://img.shields.io/github/issues/amuzil/lwst?style=for-the-badge
+[github-open-issues-url]: https://github.com/amuzil/lwst/issues
+[github-closed-issues]: https://img.shields.io/github/issues-closed/amuzil/lwst?style=for-the-badge
+[github-closed-issues-url]: https://github.com/amuzil/lwst/issues?q=is%3Aissue+is%3Aclosed
+[github-open-pull-requests]: https://img.shields.io/github/issues-pr/amuzil/lwst?style=for-the-badge
+[github-open-pull-requests-url]: https://github.com/amuzil/lwst/pulls
+[github-closed-pull-requests]: https://img.shields.io/github/issues-pr-closed/amuzil/lwst?style=for-the-badge
+[github-closed-pull-requests-url]: https://github.com/amuzil/lwst/pulls?q=is%3Apr+is%3Aclosed
+[github-open-milestones]: https://img.shields.io/github/milestones/open/amuzil/lwst?style=for-the-badge
+[github-open-milestones-url]: https://github.com/amuzil/lwst/milestones
+[github-closed-milestones]: https://img.shields.io/github/milestones/closed/amuzil/lwst?style=for-the-badge
+[github-closed-milestones-url]: https://github.com/amuzil/lwst/milestones?q=is%3Aclosed
 
 [jda-shield]: https://img.shields.io/badge/JDA-DE4B4B?style=for-the-badge&logo=discord&logoColor=white
 [jda-url]: https://jda.wiki/
