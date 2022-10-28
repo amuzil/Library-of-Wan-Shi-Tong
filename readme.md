@@ -116,27 +116,35 @@ This guide is not yet finalised and may not be complete. It is also not yet test
 
 Before you begin, ensure you have met the following requirements:
 
-* [Java 18](https://www.oracle.com/java/technologies/javase-jdk18-downloads.html)
+* [Java 18](https://jdk.java.net/18/)
     * To check if you have Java installed, run the following command:
+    
       ```sh
       java -version
       ```
+
       It should return a version number, such as 18.0.1. Ensure that the version number is 18 or higher.
 
 ### Installation
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/amuzil/library-of-wan-shi-tong.git
    ```
+
 2. Install the dependencies
+
    ```sh
    ./gradlew build
    ```
+
 2. Run the bot to generate the config file
+
    ```sh
    ./gradlew run
    ```
+
 3. Add your bot token to the config file
     1. Follow the [JDA getting started guide](https://jda.wiki/using-jda/getting-started/) up to step 1 of "Connecting to Discord with a Bot Account".
     2. Open the `config.json` file
@@ -148,6 +156,7 @@ Before you begin, ensure you have met the following requirements:
     3. Replace the value of the `token` key with your bot token
     4. Save the file
 4. Run the bot
+
    ```sh
    ./gradlew run
    ```
@@ -177,17 +186,23 @@ Options include any [JetBrains IDE](https://www.jetbrains.com/products.html) (su
 
 1. Fork the Project
 2. Create your Feature Branch
+
    ```sh
    git checkout -b feature/AmazingFeature
    ```
+
 3. Commit your Changes
+
    ```sh
    git commit -m ":sparkles: Add some AmazingFeature"
    ```
+
 4. Push to the Branch
+
    ```sh
    git push origin feature/AmazingFeature
    ```
+
 5. Open a Pull Request
 
 <p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
