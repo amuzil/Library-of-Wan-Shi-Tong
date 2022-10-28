@@ -230,9 +230,9 @@ Main contact: **Luka "Mahtaran" Leer**
 [![Mail][luka-mail-shield]][luka-mail-url]
 [![Website][luka-website-shield]][luka-website-url]
 
-[![GitHub Followers][luka-github-followers-shield]][luka-github-followers-url]
-[![Reddit][luka-reddit-shield]][luka-reddit-url]
-[![Twitter][luka-twitter-shield]][luka-twitter-url]
+[![Follow on GitHub][luka-github-followers-shield]][luka-github-followers-url]
+[![Follow on Reddit][luka-reddit-shield]][luka-reddit-url]
+[![Follow on Twitter][luka-twitter-shield]][luka-twitter-url]
 
 <p align="right" style="text-align: right">(<a href="#readme-top">back to top</a>)</p>
 
