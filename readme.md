@@ -221,7 +221,7 @@ Distributed under the Unlicense. See [`license.md`](license.md) for more informa
 
 ## Contact
 
-[![Discord][discord-shield]][discord-url]
+[![Connect on Discord][discord-shield]][discord-url]
 [![Book a meeting][cal-shield]][cal-url]
 
 Main contact: **Luka "Mahtaran" Leer**
