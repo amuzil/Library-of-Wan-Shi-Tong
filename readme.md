@@ -115,7 +115,7 @@ This guide is not yet finalised and may not be complete. It is also not yet test
 
 Before you begin, ensure you have met the following requirements:
 
-* [Java 18](https://jdk.java.net/18/)
+* [Java 18](https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html)
     * To check if you have Java installed, run the following command:
     
       ```sh
@@ -130,12 +130,6 @@ Before you begin, ensure you have met the following requirements:
 
    ```sh
    git clone https://github.com/amuzil/lwst.git
-   ```
-
-2. Install the dependencies
-
-   ```sh
-   ./gradlew build
    ```
 
 2. Run the bot to generate the config file
