@@ -5,7 +5,6 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Hacktoberfest][hacktoberfest-shield]][hacktoberfest-url]
 [![License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
