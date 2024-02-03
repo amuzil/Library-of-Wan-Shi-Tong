@@ -11,11 +11,11 @@ class ExampleListener : ListenerAdapter() {
 		}
 
 		if (event.message.contentRaw == "ping") {
-			// Calculate response time
-			val responseTime = Instant.now().plusMillis(500).toEpochMilli() - event.message.timeCreated.toInstant().toEpochMilli()
+			event.channel.sendMessage("Pong!").queue {
+				val responseTime = it.timeCreated.toInstant().toEpochMilli() - event.message.timeCreated.toInstant().toEpochMilli()
 
-			// Send response
-			event.channel.sendMessage("Pong! Response time: $responseTime ms").queue()
+				it.editMessage("Pong! Response time: $responseTime ms").queue()
+			}
 		}
 	}
 }

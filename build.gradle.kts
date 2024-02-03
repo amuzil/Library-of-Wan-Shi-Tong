@@ -35,7 +35,7 @@ tasks.withType<KotlinCompile> {
 }
 
 application {
-	mainClass.set("com.amuzil.lwst.Bot")
+	mainClass.set("com.amuzil.lwst.BotKt")
 }
 
 tasks.jar {

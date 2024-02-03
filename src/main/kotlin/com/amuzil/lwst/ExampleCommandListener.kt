@@ -21,17 +21,19 @@ class ExampleCommandListener : ListenerAdapter() {
 			event.hook.sendMessage(message).apply {
 				setEphemeral(true)
 
-				if (includeResponseTime) {
-					// Calculate response time
-					val responseTime = Instant.now().toEpochMilli() - event.timeCreated.toInstant().toEpochMilli()
-					addContent(" Response time: $responseTime ms")
-				}
+
 				if (attachment != null) {
 					attachment.proxy.downloadToPath().thenAccept {
 						addFiles(FileUpload.fromData(it, StandardOpenOption.READ, StandardOpenOption.DELETE_ON_CLOSE))
 					}.get()
 				}
-			}.queue()
+			}.queue {
+				if (includeResponseTime) {
+					val responseTime = it.timeCreated.toInstant().toEpochMilli() - event.timeCreated.toInstant().toEpochMilli()
+
+					it.editMessage("$message Response time: $responseTime ms").queue()
+				}
+			}
 		}
 	}
 

@@ -48,7 +48,7 @@ data class Configuration(
 
 		private fun defaultConfiguration() = Configuration(
 			jda = JDAConfiguration(
-				token = "enter your token here"
+				token = "enter_your_token_here"
 			)
 		)
 	}
